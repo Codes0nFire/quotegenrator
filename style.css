@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+body {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  width: 550px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 25px;
+  border: none;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.header {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: -25%;
+  left: 10%;
+}
+
+#quote {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: black;
+  color: white;
+}
+
+#author {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+  color: white;
+}
+
+button {
+  color: white;
+  background-color: tomato;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
